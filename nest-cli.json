@@ -1,0 +1,20 @@
+{
+  "collection": {
+    "root": "src",
+    "sources": [
+      {
+        "type": "module",
+        "path": "src/**/*.ts"
+      }
+    ]
+  },
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "assets": [
+      {
+        "include": "src/**/*.html",
+        "outDir": "dist"
+      }
+    ]
+  }
+}
